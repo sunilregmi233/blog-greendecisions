@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GreenDecisions</title>
+  {% load static %}
+ <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'blog/style1.css' %}">
+        <!-- <link rel="stylesheet" href="{% static 'blog/css/base.css' %}"> -->
+        <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300|Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="{% static 'blog/css/style.css'%}">
+        <link rel="stylesheet" type="text/css" href="{% static 'blog/css/bootstrap.min.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'blog/css/font-awesome.min.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'blog/css/animate.css'%}">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+  {% include './pages/header.html' %}
+  {% include './pages/aboutus.html' %}
+  {% include './pages/features.html' %}
+  {% include './pages/suscribe.html' %}
+  {% include './pages/gallery.html' %}
+  {% include './pages/contact.html' %}
+  {% include './pages/footer.html' %}
+
+
+ 
+  
+  <script src="{% static 'blog/js/jquery.min.js' %}"></script>
+  <script src="{% static 'blog/js/jquery.easing.min.js' %}"></script>
+  <script src="{% static 'blog/js/bootstrap.min.js' %}"></script>
+  <script src="{% static 'blog/js/wow.js' %}"></script>
+  <script src="{% static 'blog/js/custom.js' %}"></script>
+ 
+
+  
+</body>
+</html>
